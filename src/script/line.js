@@ -15,14 +15,16 @@ export default class line{
 
         const lengthAfterDot = x => ( (x.toString().includes('.')) ? (x.toString().split('.').pop().length) : (0) );
 
-        console.log(firstX)
+        // console.log(lengthAfterDot(firstX))
 
         if(lengthAfterDot(firstX) < 5) {
             if (fX > 0 && mX < 0 || fX < 0 && mX > 0) {
-                this.doIt(firstX, (firstX+secondX)/2)
+                return this.doIt(firstX, (firstX+secondX)/2)
             } else if (mX > 0 && sX < 0 || mX < 0 && sX > 0) {
-                this.doIt((firstX+secondX)/2, secondX)
+                return this.doIt((firstX+secondX)/2, secondX)
             }
+        }else {
+            return firstX;
         }
     }
 }
