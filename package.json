@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "datatables.net-dt": "^1.10.20",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "mathjs": "^6.6.1"
   }
 }
