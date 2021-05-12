@@ -22,6 +22,6 @@
   "dependencies": {
     "datatables.net-dt": "^1.10.20",
     "jquery": "^3.4.1",
-    "mathjs": "^6.6.1"
+    "mathjs": "^7.5.1"
   }
 }
